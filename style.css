@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+#center {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+input {
+  border: transparent;
+  background-color: coral;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+}
+input::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+#x {
+  margin-top: 35px
+}
+
+button {
+  margin: 10px;
+  border: transparent;
+  background-color: coral;
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+}
+p {
+  margin: 10px;
+  color: coral;
+  font-family: 'Poiret One', cursive;
+}
+
+#equation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+#m1 {
+  position: absolute;
+  left: 0;
+  width: 25%;
+}
+
+#slash {
+  position: absolute;
+  left: 22%;
+  font-size: 22.5px;
+}
+
+#m2 {
+  position: absolute;
+  left: 35%;
+  width: 25%;
+}
+
+
+#yInt {
+  position: absolute;
+  right: 0;
+  width: 25%;
+}

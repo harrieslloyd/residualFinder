@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Residual Finder</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="graph.png"/>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="center">
+      <div id="equation">
+        <div>
+          <input class="equation" type="text" placeholder="m" id="m1">
+          <p id="slash">/</p>
+          <input class="equation" type="text" placeholder="m" id="m2">
+        </div>
+        <input class="equation" type="text" placeholder="y int" id="yInt">
+      </div>
+      <br>
+      <input type="text" placeholder="x" id="x">
+      <input type="text" placeholder="y" id="y">
+      <br>
+      <button onclick="calculate()">Go!</button>
+      <br>
+      <p>Answer</p>
+      <p id="res">--</p>
+      <p>Answer Squared</p>
+      <p id="resSquared">--</p>
+    </div>
+  </body>
+</html>
