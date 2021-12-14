@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 
 #center {
@@ -44,7 +44,7 @@ button {
 p {
   margin: 10px;
   color: rgb(54, 54, 54);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Sora', sans-serif;
 }
 
 #equation {
