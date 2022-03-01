@@ -14,8 +14,10 @@ function calculate() {
 
 function c(m1, m2, yInt, x, y) {
   let ans = y - (((m1/m2) * x) + yInt)
+  let actual = ((m1/m2) * x) + yInt
   document.getElementById('res').innerHTML = ans
   console.log(ans)
   document.getElementById('resSquared').innerHTML = Math.pow(ans, 2)
   console.log(Math.pow(ans, 2))
+  document.getElementById('yvalue').innerHTML = actual
 }
